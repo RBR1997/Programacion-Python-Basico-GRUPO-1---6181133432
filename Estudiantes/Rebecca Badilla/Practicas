@@ -1,4 +1,4 @@
 dolares = float(input("Ingresa la cantidad de dólares que deseas convertir: "))
-tasa_de_cambio = 503,29
+tasa_de_cambio = 503.29
 colones = dolares * tasa_de_cambio
 print(f"{dolares} dólares equivalen a {colones} colones.")
