@@ -1,4 +1,23 @@
+# Mostrar en pantalla True o False si la edad ingresada por dos usuarios es la misma.
+edad_usuario1 = int(input("Ingresa la edad del primer usuario: "))
+edad_usuario2 = int(input("Ingresa la edad del segundo usuario: "))
+print(edad_usuario1 == edad_usuario2)
+
+# Convertir la cantidad de dólares ingresados por un usuario a colones y mostrar 
+# el resultado en pantalla. 
 dolares = float(input("Ingresa la cantidad de dólares que deseas convertir: "))
 tasa_de_cambio = 503.29
 colones = dolares * tasa_de_cambio
 print(f"{dolares} dólares equivalen a {colones} colones.")
+
+# Dado los valores ingresados por el usuario (base, altura) calcular y 
+# mostrar en pantalla el área de un triángulo. 
+base = float(input("Ingresa la base del triángulo: "))
+altura = float(input("Ingresa la altura del triángulo: "))
+area = (base * altura) / 2
+print(f"El área del triángulo es: {area}")
+
+# 1Mostrar en pantalla la cantidad de segundos que tiene un lustro. \
+años_en_lustro = 5
+segundos_en_lustro = años_en_lustro * 365 * 24 * 60 * 60
+print(f"Un lustro tiene {segundos_en_lustro} segundos.")
