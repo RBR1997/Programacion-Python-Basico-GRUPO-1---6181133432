@@ -21,3 +21,39 @@ print(f"El área del triángulo es: {area}")
 años_en_lustro = 5
 segundos_en_lustro = años_en_lustro * 365 * 24 * 60 * 60
 print(f"Un lustro tiene {segundos_en_lustro} segundos.")
+
+Practica 2
+
+# 1.	Crea una lista llamada numeros que contenga los números del 1 al 10.
+numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+print(numeros)
+
+# 2.	Agrega los números del 11 al 15 a la lista utilizando el método extend().
+numeros = list(range(1, 11))  # Crea la lista [1, 2, ..., 10]
+numeros.extend([11, 12, 13, 14, 15])  # Agrega del 11 al 15
+print(numeros)
+
+# 3.	Utiliza el método append() para agregar el número 16 al final de la lista.
+numeros = list(range(1, 16)) 
+numeros.append(16)
+print(numeros)
+
+# 4.	Utiliza el método insert() para agregar el número 0 al principio de la lista.
+numeros = list(range(1, 17))
+numeros.insert(0, 0)
+print(numeros)
+
+# 5.	Utiliza el método remove() para eliminar el número 5 de la lista
+numeros = list(range(0, 16))
+numeros.remove(5) 
+print(numeros)
+
+# 6.	Utiliza el método pop() para eliminar el último número de la lista y almacenarlo 
+# en una variable llamada ultimo_numero.
+numeros = list(range(0, 16)) 
+ultimo_numero = numeros.pop()
+print(ultimo_numero)
+print(numeros)
+
+
+
